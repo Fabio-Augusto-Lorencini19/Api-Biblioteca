@@ -14,5 +14,5 @@ public class AutorEntity {
     private Integer id;
     private String nome;
     private String cpf;
-    private Integer idade;
+    private String idade;
 }

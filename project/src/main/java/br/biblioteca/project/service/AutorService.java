@@ -39,7 +39,7 @@ public class AutorService {
             update.setCpf(autorEntity.getCpf());
         }
 
-        if (autorEntity.getIdade() != null) {
+        if (autorEntity.getIdade() != null && !autorEntity.getIdade().isBlank()) {
             update.setIdade(autorEntity.getIdade());
         }
 

@@ -16,6 +16,6 @@ public class LivrosEntity {
     private String ISSN;
     private String titulo;
     private String sinopse;
-    private Integer ano;
-    private Integer numPag;
+    private String ano;
+    private String numPag;
 }
